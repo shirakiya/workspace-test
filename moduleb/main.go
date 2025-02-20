@@ -3,9 +3,9 @@ package moduleb
 import (
 	"fmt"
 
-	"github.com/shirakiya/workspace-test/internal"
+	"github.com/shirakiya/workspace-test/src"
 )
 
 func Func1() string {
-	return fmt.Sprintf("moduleb.Func1 + %s", internal.Func1())
+	return fmt.Sprintf("moduleb.Func1 + %s", src.Func1())
 }
